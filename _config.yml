@@ -52,13 +52,16 @@ exclude:
 collections:
   posts:
     output: true
-    permalink: /:collection/:path/
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
   pages:
     output: true
-    permalink: /:collection/:path/
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
   others:
     output: true
-    permalink: /:collection/:path/
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
 
 ordered_collections:
   - posts
